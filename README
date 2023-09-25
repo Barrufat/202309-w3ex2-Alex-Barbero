@@ -1,0 +1,4 @@
+1. Hay que substituir el <p> por un <label> con for="name";
+2. Al input le falta e id="email";
+3. El <button> debe estar dentro del <form>
+4. Falta el <form> que contenga el resto de etiquetas

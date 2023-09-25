@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.input {
+  font: inherit;
+}
+
+.input:not([type="checkbox"]) {
+  padding: 5px;
+}
+
+.label {
+  display: inline-block;
+  width: 100px;
+}
+
+.input[type="checkbox"] + .label {
+  width: auto;
+}
